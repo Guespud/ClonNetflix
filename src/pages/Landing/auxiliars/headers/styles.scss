@@ -1,0 +1,17 @@
+.LandingHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  &_logo {
+      width: 150px;
+      height: 45px;
+  }
+  &_button {
+    background-color: "#E52C12";
+    border-radius: 8px;
+    padding: 6px 10px;
+    p {
+      color: white;
+    }
+  }
+}
